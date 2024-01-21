@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    font-size: 13.4px;
+}
+
+body {
+    background: #23252C;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.card-container {
+    background: red;
+    width: 420px;
+    margin: 1em auto;
+    border-radius: 8px;
+    background: #1A1B21;
+}
+
+.profile-img {
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.main-content {
+    padding: 0 2em;
+}
+
+.name {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.major {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #F3BF99;
+    margin: .5em 0 .75em;
+}
+
+.site {
+    font-size: .9rem;
+    color: #d5d5d5;
+    margin: 0;
+}
+
+.email-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin: 1.6em 0;
+    padding: .6em;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #374151;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.email-btn:hover {
+    background: #dddddd;
+}
+
+.email-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.title-content {
+    text-align: left;
+    margin: 0;
+}
+
+.text-content {
+    text-align: left;
+    font-size: .85rem;
+    color: #DCDCDC;
+    margin: .5em 0 2em;
+}
+
+footer {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 2em;
+    margin-top: 3em;
+    background: #161619;
+}
+
+.logo {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
